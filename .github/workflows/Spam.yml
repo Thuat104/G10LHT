@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       sdt:
-        description: "Nhập số điện thoại"
+        description: "0866454025"
         required: true
         default: ""  # Thay đổi giá trị mặc định nếu cần
       so_lan_spam:
         description: "Nhập số lần spam"
         required: true
-        default: "1000"  # Thay đổi giá trị mặc định nếu cần
+        default: "10"  # Thay đổi giá trị mặc định nếu cần
 
 jobs:
   run-spam:
